@@ -10,10 +10,13 @@
 #               organization and repository name. ( ex: ./list-users.sh Sachin-s-DevOps-Projects shell-scripting-projects)
 ########################################################################################
 
-helper()
+
 
 # GitHub API URL
 API_URL="https://api.github.com"
+
+#Calling helper function
+helper()
 
 # GitHub username and personal access token
 USERNAME=$username
